@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ScratchCard">
+        <attr name="card_color" format="color"/>
+        <attr name="circle_radius" format="integer"/>
+        <attr name="card_gap" format="integer"/>
+    </declare-styleable>
+</resources>

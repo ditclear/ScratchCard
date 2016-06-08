@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:card="http://schemas.android.com/apk/res-auto"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -12,18 +11,21 @@
     android:background="@android:color/background_light"
     tools:context="com.ditclear.app.MainActivity">
 
-    <com.ditclear.scratchcard.ScratchTextView
+    <com.ditclear.scratchcard.ScratchCard
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_centerInParent="true"
-        android:background="@android:color/holo_green_light"
-        android:padding="50dp"
+        android:background="#c5123456"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="50dp"
+        android:paddingBottom="50dp"
         android:gravity="center"
         android:textSize="20sp"
+        android:textColor="#ffffff"
         android:id="@+id/view"
-        android:elevation="8dp"
         android:text="谢谢惠顾！">
 
-    </com.ditclear.scratchcard.ScratchTextView>
+    </com.ditclear.scratchcard.ScratchCard>
 
 </RelativeLayout>
